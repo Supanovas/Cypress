@@ -4,6 +4,8 @@
   "description": "Cypress.io end to end testing tool",
   "version": "1.0.1",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "start": "cypress"
+  },
   "env": "production"
 }
