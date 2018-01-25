@@ -5,7 +5,9 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-  "npm run-p --": "cypress:run"
+  "start": "my-server",
+    "cy:run": "cypress run",
+    "test": "run-p --race start cy:run
   },
   "env": "production"
 }
