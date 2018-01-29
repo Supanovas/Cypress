@@ -9,6 +9,6 @@
     "cy:run" "cypress run",
     "test": "run-p --race start cy:run"
     
-  },
+  
   "env": "production"
 }
