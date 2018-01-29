@@ -19,8 +19,8 @@ install:
 test_script:
   # only run if there is commit message
   # with new version
-  - run-if npm run cy:version
-  - run-if npm run cy:verify
+  - run-if npm run cy:version "cypress version"
+  - run-if npm run cy:verify "cypress verify"
   - run-if npm run test:ci:record
 
 # Don't actually build.
