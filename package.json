@@ -10,5 +10,5 @@
     "test": "run-p --race start cy:run"
     
   
-  "env": "production"
+  "env" "production"
 }
